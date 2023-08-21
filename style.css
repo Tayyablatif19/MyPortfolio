@@ -403,6 +403,22 @@ h4:hover {
         margin-left: 0px;
         text-align: left;
     }
+      .gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3px;
+    justify-content: center;
+    margin: 30px 50px;
+   
+   
+}
+
+      #introduction {
+    text-align: center;
+    margin: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
     
     
 }
