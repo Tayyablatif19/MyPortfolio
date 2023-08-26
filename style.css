@@ -492,7 +492,7 @@ b {
 
     .top-left-buttons {
         position: relative;
-        margin-left: 25px;
+        margin-left: 2px;
         margin-top: 5px;
         padding: 3px;
         justify-content: flex-start
@@ -501,6 +501,7 @@ b {
     .name {
         font-size: 25px;
         padding-top: 10px;
+        text-align: center;
     }
 
     .button {
@@ -555,26 +556,23 @@ b {
     .image {
         text-align: center;
         margin-top: 100px;
-
-    }
-
-    #myImage img {
-        border-radius: 100%;
+      }
+      
+      #myImage img {
+        display: block;
+        border-radius: 50%; /* To make a perfect circle, set to 50% */
         height: 150px;
-        margin: none;
-
-
-    }
-
-    #introduction {
+        margin: 0 auto;
+       
+      }
+      
+      #introduction {
         text-align: justify;
-        margin: 0px 3px;
+        margin: 0 3px;
         font-size: 14px;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         padding: 10px;
-    }
+        width: 100%;
+      }
 
     .education {
         margin: 30px;
@@ -660,18 +658,21 @@ b {
       .projectgriditem3,
       .projectgriditem5 {
         margin: 5px;
+       
       
       }
       
       #projectimg img {
       
-       
+        height: 200px;
+        width: auto;
         opacity: 0.8;
         border-radius: 20px;
-        margin: 2px 0;
+       
         border: 3px solid #ff9900;
         display: block;
         margin: 0 auto; /* Center-align the image */
+        margin-top: 50px;
       
       }
       
@@ -885,4 +886,5 @@ b {
         margin: 5px;
     }
 
+  
 }
