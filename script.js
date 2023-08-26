@@ -9,5 +9,7 @@ function updateSkills() {
 }
 
 updateSkills(); 
-setInterval(updateSkills, 1500); 
+setInterval(updateSkills, 1000); 
+
+// 2-)swiping functions for images
 
